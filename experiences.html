@@ -1,69 +1,43 @@
-<!DOCTYPE html>
-<html lang="fr">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mon Portfolio - Compétences</title>
-    <link rel="stylesheet" href="styles.css">
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@700&family=Pacifico&display=swap" rel="stylesheet">
-</head>
-<body>
-    <nav class="navbar">
-        <a class="navbar-brand" href="index.html">Mon Portfolio</a>
-        <div class="navbar-nav">
-            <a class="nav-link" href="index.html">Accueil</a>
-            <a class="nav-link" href="experiences.html">Compétences</a> <!-- Modifié ici -->
-        </div>
-    </nav>
-
-    <header class="jumbotron small-header">
-        <h1 class="display-4">Mes Compétences</h1> <!-- Modifié ici -->
-    </header>
-
-    <section id="competences" class="container">
-        <div class="row">
-            <div class="col-md-12">
-                <h2>Compétences</h2>
-                <ul id="competences-list">
-                    <!-- Liste des compétences -->
-                    <li><strong>Informatique industrielle</strong></li>
-                    <ul>
-                        <li>Langages de programmation : VHDL, Programmation C, Arduino</li>
-                        <li>Environnement de développement : XILINX, Code::Blocks, Step 7 (Siemens), Kicad, STM32</li>
-                        <li>Utilisation d'une mémoire électronique</li>
-                        <li>Programmation sur microcontrôleur</li>
-                    </ul>
-                    <li><strong>Electronique</strong></li>
-                    <ul>
-                        <li>Amplificateurs, convertisseurs CNA-CAN</li>
-                    </ul>
-                    <li><strong>Automatisme</strong></li>
-                    <ul>
-                        <li>Programme d’API, Grafcet</li>
-                    </ul>
-                    <li><strong>Énergie</strong></li>
-                    <ul>
-                        <li>Monophasé, triphasé, électronique de puissance</li>
-                        <li>Moteur synchrone et asynchrone</li>
-                        <li>Redressement</li>
-                    </ul>
-                    <li><strong>Calcul formel</strong></li>
-                    <ul>
-                        <li>Maple</li>
-                    </ul>
-                    <li><strong>Gestion de projet</strong></li>
-                    <ul>
-                        <li>Gantt Project</li>
-                    </ul>
-                    <li><strong>Informatique</strong></li>
-                    <ul>
-                        <li>Pack Office</li>
-                    </ul>
+<section id="competences" class="container">
+    <div class="row">
+        <div class="col-md-12">
+            <h2>Compétences</h2>
+            <div id="competences-list">
+                <!-- Liste des compétences -->
+                <div class="competence-category">Informatique industrielle</div>
+                <ul>
+                    <li class="competence-item">Langages de programmation : VHDL, Programmation C, Arduino</li>
+                    <li class="competence-item">Environnement de développement : XILINX, Code::Blocks, Step 7 (Siemens), Kicad, STM32</li>
+                    <li class="competence-item">Utilisation d'une mémoire électronique</li>
+                    <li class="competence-item">Programmation sur microcontrôleur</li>
+                </ul>
+                <div class="competence-category">Electronique</div>
+                <ul>
+                    <li class="competence-item">Amplificateurs, convertisseurs CNA-CAN</li>
+                </ul>
+                <div class="competence-category">Automatisme</div>
+                <ul>
+                    <li class="competence-item">Programme d’API, Grafcet</li>
+                </ul>
+                <div class="competence-category">Énergie</div>
+                <ul>
+                    <li class="competence-item">Monophasé, triphasé, électronique de puissance</li>
+                    <li class="competence-item">Moteur synchrone et asynchrone</li>
+                    <li class="competence-item">Redressement</li>
+                </ul>
+                <div class="competence-category">Calcul formel</div>
+                <ul>
+                    <li class="competence-item">Maple</li>
+                </ul>
+                <div class="competence-category">Gestion de projet</div>
+                <ul>
+                    <li class="competence-item">Gantt Project</li>
+                </ul>
+                <div class="competence-category">Informatique</div>
+                <ul>
+                    <li class="competence-item">Pack Office</li>
                 </ul>
             </div>
         </div>
-    </section>
-
-    <script src="scripts.js"></script>
-</body>
-</html>
+    </div>
+</section>
